@@ -7,7 +7,7 @@ export const loginByUsername = (username, password, code, randomStr) => {
     url: '/auth/oauth/token',
     headers: {
       'TENANT_ID': '1',
-      'Authorization': 'Basic cGlnOnBpZw=='
+      'Authorization': 'Basic eGluZzp4aW5n'
     },
     method: 'post',
     params: { username, password, randomStr, code, grant_type, scope }
@@ -20,7 +20,7 @@ export const loginByMobile = (mobile, code) => {
     url: '/auth/mobile/token/sms',
     headers: {
       'TENANT_ID': '1',
-      'Authorization': 'Basic cGlnOnBpZw=='
+      'Authorization': 'Basic eGluZzp4aW5n'
     },
     method: 'post',
     params: { mobile: 'SMS@' + mobile, code: code, grant_type }
@@ -33,7 +33,7 @@ export const loginBySocial = (state, code) => {
     url: '/auth/mobile/token/social',
     headers: {
       'TENANT_ID': '1',
-      'Authorization': 'Basic cGlnOnBpZw=='
+      'Authorization': 'Basic eGluZzp4aW5n'
     },
     method: 'post',
     params: { mobile: state + '@' + code, grant_type }

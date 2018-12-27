@@ -1,13 +1,13 @@
 export default {
-  title: 'PigX',
-  logo: 'PigX',
-  indexTitle: 'PigX Pro 快速开发框架',
+  title: 'XingCloud',
+  logo: 'XingCloud',
+  indexTitle: 'XingCloud 快速开发框架',
   whiteList: ['/login', '/404', '/401', '/lock'], // 配置无权限可以访问的页面
   whiteTagList: ['/login', '/404', '/401', '/lock' ], // 配置不添加tags页面 （'/advanced-router/mutative-detail/*'——*为通配符）
   lockPage: '/lock',
   tokenTime: 6000,
   info: {
-    title: 'PigX Pro 快速开发框架',
+    title: 'XingCloud 快速开发框架',
     list: [
       '一个基于Spring Cloud、OAuth2.0开发基于Vue前后分离的开发平台。',
       '一个基于Avue2 开发无需前端知识，即可快速上手的开发平台。',

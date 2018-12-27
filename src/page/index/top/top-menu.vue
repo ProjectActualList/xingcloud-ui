@@ -32,7 +32,7 @@ export default {
         },
         {
           label: '文档',
-          href: 'https://www.kancloud.cn/lengleng/pig-guide/627970',
+          href: 'https://www.kancloud.cn/weixing/xing-guide/627970',
           icon: 'el-icon-document',
           parentId: 1
         },
